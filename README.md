@@ -11,6 +11,10 @@
 - Easy to maintain 
 - Good documentation and community support
 
+### Prototype
+
+![Image](./assets/App.png)
+
 ## PyQt6
 
 ### Installation
