@@ -49,6 +49,10 @@ Design file used to test the libraries:
 
 ![Image](./assets/App.png)
 
+**Disclaimer:** The design file will not represent a "good" use of the different libraries, as some are less flexible and some are more complex than others. The design file is only ment as a guide for testing out the libraries, hence the different implementations will not all look like the design file.
+
+However, if a UI library is easy to customize and style accoring to predecided UX/UI guidelines, it will be easier to maintain and update the UI and a plus in the comparison.
+
 ## PyQt6
 
 ### Installation
@@ -79,6 +83,12 @@ pip install textual
 ### Running the application
 
 ```bash
-textual run pyqt/app.py
+python textualize/app.py
 ```
-
+### Comments
+- Documentation is good and easy to understand and navigate
+- The default widgets are easy to implement
+- No support for images
+- No support for changing font size and font type
+- Not meant to be used as a "web looking" UI, more of a clickable CLI
+- Limited customization options of the default widgets

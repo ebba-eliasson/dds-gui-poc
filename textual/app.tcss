@@ -1,0 +1,51 @@
+Screen {
+    layout: grid;
+    grid-size: 2;
+    grid-rows: 10% 90%;
+    grid-columns: 20% 80%;
+}
+
+.box {
+    height: 100%;
+}
+
+Header {
+    layout: horizontal;
+}
+
+#header {
+    column-span: 2;
+    row-span: 1;
+    background: #65558F;
+}
+
+.header-title {
+    color: #ffffff;
+    text-style: bold;
+}
+
+Sidebar {
+    layout: vertical;
+    align: center middle;
+}
+
+#sidebar {
+    row-span: 1;
+    background: #EADDFF;
+}
+
+.sidebar-page {
+    background: #FFD8E4;
+    padding: 1;
+    margin: 1 0 1 0;
+    color: #21005D;
+    text-align: center;
+}
+
+#body {
+    row-span: 1;
+    background: #ffffff;
+}
+
+
+
